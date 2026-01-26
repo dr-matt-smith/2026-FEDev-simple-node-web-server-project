@@ -89,7 +89,13 @@
     }
     ```
 
-7. Add a `start` script shortcut to run the web server (`app.js`). Do this by adding `    "start": "node app.js"` to the `scripts` property in file `package.json`:
+7. Add a `start` script shortcut to run the web server (`app.js`). Do this by adding to file `package.json` the following line in the `scripts` property:
+
+   ```json
+          "start": "node app.js"
+   ```
+
+    - also, ensure you add a comma `,` to the end of the previous line (the `start` script). The `scripts` property should now looks as follows:
 
    ```json
    // file: package.json
@@ -104,7 +110,7 @@
    }
    ```
    
-8. Write a simple `app.js` file to return `Hello world` to every HTTP request:
+10. Write a simple `app.js` file to return `Hello world` to every HTTP request:
 
    ```javascript
    // file: app.js
@@ -128,7 +134,7 @@
    });
    ```
 
-10. You can now run the web server with:
+11. You can now run the web server with:
 
    ```bash
    npm start
