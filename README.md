@@ -1,4 +1,6 @@
-# A simple Node.js web server project
+# 2026-FEDev-simple-node-web-server-project
+
+A simple Node.js web server project - to test your Node install for web development.
 
 ![screenshot of web page showinng hello world message and randomly generated emaila address](screenshot.png)
 
