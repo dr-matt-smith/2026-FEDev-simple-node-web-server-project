@@ -95,7 +95,7 @@
           "start": "node app.js"
    ```
 
-    - also, ensure you add a comma `,` to the end of the previous line (the `start` script). The `scripts` property should now looks as follows:
+    - also, ensure you add a comma `,` to the end of the previous line (the existing `test` script). The `scripts` property should now looks as follows:
 
    ```json
    // file: package.json
