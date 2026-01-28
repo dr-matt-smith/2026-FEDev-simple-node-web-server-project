@@ -2,7 +2,7 @@
 
 A simple Node.js web server project - to test your Node install for web development.
 
-![screenshot of web page showinng hello world message and randomly generated emaila address](screenshot.png)
+![screenshot of web page showinng hello world message and randomly generated emaila address](screenshot2.png)
 
 
 
@@ -141,8 +141,13 @@ A simple Node.js web server project - to test your Node install for web developm
    ```bash
    npm start
    ```
+
+   Open a web browser or web preview to URL  `http://localhost:3000`, and you should now see the  `hello world` string output from our `handleRequest()` JavaScript function in `app.js`:
+
+   ![screenshot of web page showinng hello world message and randomly generated emaila address](screenshot3.png)
+
    
-11. Let's add the Faker package to this project:
+13. Let's add the Faker package to this project:
    
    ```bash
    >>> npm install @faker-js/faker
@@ -155,7 +160,7 @@ A simple Node.js web server project - to test your Node install for web developm
    found 0 vulnerabilities
    ```
 
-12. Let's now use this to return a random email address each time the home page is requested:
+14. Let's now use this to return a random email address each time the home page is requested:
 
    ```javascript
    // file: app.js
@@ -182,4 +187,8 @@ A simple Node.js web server project - to test your Node install for web developm
    });
    ```
 
- 
+Again, open a web browser or web preview to URL  `http://localhost:3000`, and you should now see the  `hello world` string folowed by a random email address output from our `handleRequest()` JavaScript function in `app.js`:
+
+![screenshot of web page showinng hello world message and randomly generated emaila address](screenshot.png)
+
+Each time you refresh the web view you should see a new random email displayed, as function `handleRequest()` is executed for each new HTTP `GET` request to the root of the web server `/`.
