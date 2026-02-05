@@ -57,16 +57,13 @@ A simple Node.js web server project - to test your Node install for web developm
     found 0 vulnerabilities
     ```
 
-5. Create main application file, e.g. `app.js` or `server.js`:
-
-   - you should now have the following folder structure:
+5. You should now have the following folder structure:
 
     ```bash
     |_node_modules\
     | |____(lots of files)
     |___package-lock.json
     |___package.json
-    |___app.js
     ```
    
 6. The project dependencies are in file `package.json`
@@ -112,7 +109,7 @@ A simple Node.js web server project - to test your Node install for web developm
    }
    ```
    
-10. Write a simple `app.js` file to return `Hello world` to every HTTP request:
+8. Write a simple `app.js` file to return `Hello world` to every HTTP request:
 
    ```javascript
    // file: app.js
@@ -136,7 +133,7 @@ A simple Node.js web server project - to test your Node install for web developm
    });
    ```
 
-11. You can now run the web server with:
+9. You can now run the web server with:
 
    ```bash
    npm start
@@ -147,7 +144,7 @@ A simple Node.js web server project - to test your Node install for web developm
    ![screenshot of web page showinng hello world message and randomly generated emaila address](screenshot3.png)
 
    
-13. Let's add the Faker package to this project:
+10. Let's add the Faker package to this project:
    
    ```bash
    >>> npm install @faker-js/faker
@@ -160,7 +157,7 @@ A simple Node.js web server project - to test your Node install for web developm
    found 0 vulnerabilities
    ```
 
-14. Let's now use this to return a random email address each time the home page is requested:
+11. Let's now use this to return a random email address each time the home page is requested:
 
    ```javascript
    // file: app.js
