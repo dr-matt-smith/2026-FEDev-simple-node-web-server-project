@@ -2,8 +2,7 @@
 
 A simple Node.js web server project - to test your Node install for web development.
 
-Captioned Video Walkthrough of this exercise:
-- https://go.screenpal.com/watch/cOnQXIn3WmD
+Captioned Video Walkthrough of this exercise: https://go.screenpal.com/watch/cOnQXIn3WmD
  
 ![screenshot of web page showinng hello world message and randomly generated emaila address](screenshot2.png)
 
